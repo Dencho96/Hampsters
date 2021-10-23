@@ -1,0 +1,19 @@
+.social {
+
+    &__item {
+        display: inline-block;
+
+        &+& {
+            margin-left: 25px;
+        }
+    }
+
+    &__link {
+        width: 24px;
+        height: 24px;
+
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
