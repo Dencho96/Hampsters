@@ -32,6 +32,12 @@
         line-height: 120%;
         text-align: center;
         text-transform: uppercase;
+
+        &--right {
+            margin-right: 0;
+            margin-left: 40px;
+            order: 2;
+        }
     }
 
     &__text {
