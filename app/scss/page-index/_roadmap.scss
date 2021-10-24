@@ -1,0 +1,45 @@
+.roadmap {
+    padding: 60px 0;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__inner {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        align-items: center;
+
+        &+&{
+            margin-top: 80px;
+        }
+    }
+
+    &__month {
+        margin-right: 40px;
+        padding-top: 60px;
+        width: 196px;
+        height: 196px;
+        background-image: url('../images/pumpkin.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        font-family: "Frightmare", sans-serif;
+        font-size: 100px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        margin-top: 25px;
+        max-width: 280px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+}

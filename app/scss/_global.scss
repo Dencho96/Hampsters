@@ -28,7 +28,7 @@ p {
 
 body {
     overflow-x: hidden;
-    background-color: white;
+    background-color: #F1ECDF;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -57,4 +57,12 @@ body {
 .text-beige {
     display: block;
     color: $beige;
+}
+
+.block-title {
+    font-family: "Frightmare", sans-serif;
+    font-size: 100px;
+    line-height: 120%;
+    color: black;
+    text-transform: uppercase;
 }

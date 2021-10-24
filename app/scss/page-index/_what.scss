@@ -1,0 +1,21 @@
+.what {
+    padding: 120px 0 60px;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__descr {
+        margin-bottom: 80px;
+        max-width: 965px;
+        width: 100%;
+        color: $beige;
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    &__img {
+        width: 197px;
+        height: 224px;
+    }
+}
