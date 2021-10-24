@@ -6,3 +6,8 @@ const swiper = new Swiper('.swiper', {
         delay: 2000,
     },
 });
+
+
+$('.faq__btn').on('click', function () {
+    $(this).next('.faq__answer').slideToggle();
+});
