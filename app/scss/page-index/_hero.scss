@@ -1,9 +1,23 @@
 .hero {
+    position: relative;
     height: 100vh;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -182px;
+        right: 34px;
+        width: 354px;
+        height: 364px;
+        background-image: url('../images/ghost.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
     &__container {
         position: relative;

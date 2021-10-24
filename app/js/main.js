@@ -10,4 +10,5 @@ const swiper = new Swiper('.swiper', {
 
 $('.faq__btn').on('click', function () {
     $(this).next('.faq__answer').slideToggle();
+    $(this).toggleClass("faq__btn--active");
 });

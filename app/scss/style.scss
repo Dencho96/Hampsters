@@ -2,6 +2,7 @@
 @import 'vars';
 @import 'global';
 
+@import 'components/menu';
 @import 'components/social';
 
 @import 'page-index/header';
@@ -10,3 +11,4 @@
 @import 'page-index/roadmap';
 @import 'page-index/team';
 @import 'page-index/faq';
+@import 'page-index/footer';

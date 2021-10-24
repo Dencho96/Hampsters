@@ -53,6 +53,11 @@ body {
     font-weight: 700;
     color: white;
     cursor: pointer;
+    transition: opacity 0.2s;
+
+    &:hover {
+        opacity: 0.6;
+    }
 }
 
 .text-beige {
@@ -66,4 +71,10 @@ body {
     line-height: 120%;
     color: black;
     text-transform: uppercase;
+}
+
+.main-wrapper {
+    background-image: url('../images/bg-1.png'), url('../images/bg-2.png'), url('../images/bg-3.png');
+    background-position: left 118px, right 1270px, left bottom 404px;
+    background-repeat: no-repeat;
 }

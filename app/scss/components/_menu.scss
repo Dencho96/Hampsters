@@ -1,0 +1,31 @@
+.menu {
+    justify-content: space-between;
+    align-items: center;
+
+    &__inner {
+        justify-content: space-between;
+        align-items: center;
+        max-width: 781px;
+        width: 100%;
+    }
+
+    &__item {
+        display: inline-block;
+
+        &+&{
+            margin-left: 48px;
+        }
+    }
+
+    &__link {
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        transition: color 0.2s;
+
+        &:hover {
+            color: $beige;
+        }
+    }
+
+}
